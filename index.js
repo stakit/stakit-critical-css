@@ -20,6 +20,10 @@ module.exports = function (ctx) {
   var html = ''
 
   return function (opts) {
+    opts = Array.assign({
+      src: '/bundles/bundle.css'
+    }, opts)
+
     // find stream for opts.src
     var index = -1
     if (ctx._files[_lastIndex].destination === opts.src) {
