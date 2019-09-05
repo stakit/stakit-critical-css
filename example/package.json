@@ -1,0 +1,18 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "choo": "^7.0.0",
+    "stakit": "^0.0.3",
+    "stakit-choo": "^0.1.1",
+    "stakit-test-writer": "^0.1.0"
+  }
+}

@@ -1,0 +1,19 @@
+.a {
+  color: red;
+}
+
+.a .b {
+  background: black;
+}
+
+h1.b {
+  color: blue;
+}
+
+.d > .b {
+  color: yellow;
+}
+
+.b {
+  color: blue;
+}

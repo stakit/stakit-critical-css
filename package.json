@@ -1,0 +1,30 @@
+{
+  "name": "stakit-critical-css",
+  "version": "0.0.0",
+  "description": "Stakit transform to inline critical CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/stakit/stakit-critical-css"
+  },
+  "keywords": [
+    "stakit",
+    "dropcss",
+    "csso"
+  ],
+  "author": "kodedninja",
+  "license": "ISC",
+  "dependencies": {
+    "concat-stream": "^2.0.0",
+    "csso": "^3.5.1",
+    "dropcss": "^1.0.15",
+    "hstream": "^1.2.0",
+    "pump": "^3.0.0",
+    "readable-stream": "^3.4.0",
+    "stream-value-reader": "^0.1.0",
+    "through2": "^3.0.1"
+  }
+}
