@@ -20,7 +20,7 @@ module.exports = function (ctx) {
   var html = ''
 
   return function (opts) {
-    opts = Array.assign({
+    opts = Object.assign({
       src: '/bundles/bundle.css'
     }, opts)
 
