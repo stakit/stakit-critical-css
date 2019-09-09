@@ -4,7 +4,7 @@
   "description": "Stakit transform to inline critical CSS",
   "main": "index.js",
   "scripts": {
-    "test": "standard && node test.js"
+    "test": "standard"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,8 @@
     "readable-stream": "^3.4.0",
     "stream-value-reader": "^0.1.0",
     "through2": "^3.0.1"
+  },
+  "devDependencies": {
+    "standard": "^14.1.0"
   }
 }

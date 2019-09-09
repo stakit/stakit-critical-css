@@ -7,8 +7,8 @@ var app = require('.')
 var writer = testWriter()
 
 var kit = stakit()
-  .use(stakit.copy([ 'style.css' ]))
-  .routes(() => [ '/', '/about' ])
+  .use(stakit.copy(['style.css']))
+  .routes(() => ['/', '/about'])
   .render(render(app))
   .transform(inlineCriticalCSS, { src: 'style.css' })
 
